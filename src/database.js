@@ -6,10 +6,10 @@ require('dotenv').config();
 
 
 const db = MySQL.createPool({
-  host: bhzgkv18y4fjeez0nw4d-mysql.services.clever-cloud.com,
-  user: uypxdjhtlxni25dm,
-  password: XvECT2rpiaFIQcGCQY0p,
-  database: bhzgkv18y4fjeez0nw4d,
+  host: 'bhzgkv18y4fjeez0nw4d-mysql.services.clever-cloud.com',
+  user: 'uypxdjhtlxni25dm',
+  password: 'XvECT2rpiaFIQcGCQY0p',
+  database: 'bhzgkv18y4fjeez0nw4d',
   connectionLimit: 10
 });
 
